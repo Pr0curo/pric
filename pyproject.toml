@@ -1,13 +1,14 @@
 [tool.poetry]
+authors = ["Pr0curo"]
+description = ""
+license = "MIT"
 name = "pric"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
-license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.10"
 flask = "^2.2.2"
+python = "^3.10"
+python-dotenv = "^0.21.0"
 
 [tool.poetry.dev-dependencies]
 
@@ -15,5 +16,5 @@ flask = "^2.2.2"
 mypy = "^0.991"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
